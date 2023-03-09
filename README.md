@@ -14,7 +14,7 @@ There are two initial option for data processing: manual inspection and process.
   
     Input: mzML file
     It will open a new screen. By adding m/z value or type a chemical formula, the software will search and display the TIC and the MS/MS list available for the given       value. MS/MS can be exported by clicking on the "Create library file"
-    ![image](https://user-images.githubusercontent.com/91892227/223106951-a10fd652-8011-4e7e-9a9e-31f1cef6fb03.png)
+    ![image](https://user-images.githubusercontent.com/91892227/224060350-4f739363-8fc4-4a56-b541-1be7b2105177.png)
 
   - Progress
   
