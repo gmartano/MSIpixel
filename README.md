@@ -3,7 +3,7 @@ To execute MSIpixel download all the .py files in the same folder and execute th
 
 # Python version and Dependencies
 MSIpixel was developed and tested with python 3.11.0.
-Library requirments: PyQt5, Numpy, psutil, scipy, pandas, pyarrow, fastparquet, seaborn, matplotlib, molmass
+Library requirments: PyQt5, Numpy, psutil, scipy, pandas, pyarrow, fastparquet, seaborn, matplotlib, molmass, pymzml
 
 (Optional) You can download and unpack test_file.zip and library.zip files for testing MSIpixel funcionalities.
 
