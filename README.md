@@ -1,5 +1,11 @@
 # MSIpixel
-To execute MSIpixel download all the .py files in the same folder and execute the main.py file.
+To run MSIpixel, there are 2 options:
+1)	On Windows machine, you can download the compile version of MSIpixel at https://github.com/gmartano/MSIpixel_utils/raw/main/MSIpixel_win.exe 
+Unzip the folder and execute the MSIpixel.exe file.
+2)	clone this repository or download all the .py files and place them in the same folder. Install python and dependencies as decribed below and then execute the main.py file. 
+With both method, the following GUI should appear on your screen.
+
+
 
 # Python version and Dependencies
 MSIpixel was developed and tested with python 3.11.0.
