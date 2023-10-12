@@ -54,7 +54,7 @@ class Ui_Form(object):
         self.root = ET.parse(self.mzml).getroot()
         
         Form.setObjectName("Manual Inspection")
-        Form.resize(939, 939)
+        Form.resize(1020, 980)
         Form.setWindowFlags(Form.windowFlags() | QtCore.Qt.WindowMaximizeButtonHint | QtCore.Qt.WindowMinimizeButtonHint)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
@@ -109,56 +109,57 @@ class Ui_Form(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.widget_4.sizePolicy().hasHeightForWidth())
         self.widget_4.setSizePolicy(sizePolicy)
-        self.widget_4.setMinimumSize(QtCore.QSize(300, 100))
+        self.widget_4.setMinimumSize(QtCore.QSize(300, 105))
         self.widget_4.setMaximumSize(QtCore.QSize(16777215, 100))
 
         self.widget_4.setObjectName("widget_4")
         self.textEdit_3 = QtWidgets.QTextEdit(self.widget_4)
         self.textEdit_3.setEnabled(False)
-        self.textEdit_3.setGeometry(QtCore.QRect(0, 30, 41, 31))
-
+        self.textEdit_3.setGeometry(QtCore.QRect(0, 30, 80, 31))
         self.textEdit_3.setObjectName("textEdit_3")
-        self.spinBox = QtWidgets.QSpinBox(self.widget_4)
-        self.spinBox.setGeometry(QtCore.QRect(680, 30, 42, 31))
 
-        self.spinBox.setProperty("value", 5)
-        self.spinBox.setObjectName("spinBox")
-        self.textEdit = QtWidgets.QTextEdit(self.widget_4)
-        self.textEdit.setEnabled(False)
-        self.textEdit.setGeometry(QtCore.QRect(510, 30, 31, 31))
-
-        self.textEdit.setObjectName("textEdit")
-        self.lineEdit_3 = QtWidgets.QLineEdit(self.widget_4)
-        self.lineEdit_3.setGeometry(QtCore.QRect(310, 30, 133, 31))
-
-        self.lineEdit_3.setObjectName("lineEdit_3")
-        self.lineEdit = QtWidgets.QLineEdit(self.widget_4)
-        self.lineEdit.setGeometry(QtCore.QRect(540, 30, 91, 31))
-        self.lineEdit.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
-
-        self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.widget_4)
-        self.lineEdit_2.setGeometry(QtCore.QRect(40, 30, 133, 31))
-
+        self.lineEdit_2.setGeometry(QtCore.QRect(80, 30, 135, 31))
         self.lineEdit_2.setObjectName("lineEdit_2")
-        self.textEdit_2 = QtWidgets.QTextEdit(self.widget_4)
-        self.textEdit_2.setEnabled(False)
-        self.textEdit_2.setGeometry(QtCore.QRect(640, 30, 61, 31))
 
-        self.textEdit_2.setObjectName("textEdit_2")
         self.textEdit_4 = QtWidgets.QTextEdit(self.widget_4)
         self.textEdit_4.setEnabled(False)
-        self.textEdit_4.setGeometry(QtCore.QRect(180, 30, 131, 31))
-
+        self.textEdit_4.setGeometry(QtCore.QRect(215, 30, 135, 31))
         self.textEdit_4.setObjectName("textEdit_4")
-        self.comboBox = QtWidgets.QComboBox(self.widget_4)
-        self.comboBox.setGeometry(QtCore.QRect(440, 30, 69, 31))
 
+        self.lineEdit_3 = QtWidgets.QLineEdit(self.widget_4)
+        self.lineEdit_3.setGeometry(QtCore.QRect(350, 30, 135, 31))
+        self.lineEdit_3.setObjectName("lineEdit_3")
+
+        self.comboBox = QtWidgets.QComboBox(self.widget_4)
+        self.comboBox.setGeometry(QtCore.QRect(485, 30, 80, 31))
         self.comboBox.setObjectName("comboBox")
+
+        self.textEdit = QtWidgets.QTextEdit(self.widget_4)
+        self.textEdit.setEnabled(False)
+        self.textEdit.setGeometry(QtCore.QRect(565, 30, 80, 31))
+        self.textEdit.setObjectName("textEdit")
+
+        self.lineEdit = QtWidgets.QLineEdit(self.widget_4)
+        self.lineEdit.setGeometry(QtCore.QRect(645, 30, 80, 31))
+        self.lineEdit.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
+        self.lineEdit.setObjectName("lineEdit")
+
+        self.textEdit_2 = QtWidgets.QTextEdit(self.widget_4)
+        self.textEdit_2.setEnabled(False)
+        self.textEdit_2.setGeometry(QtCore.QRect(725, 30, 80, 31))
+        self.textEdit_2.setObjectName("textEdit_2")
+
+
+        self.spinBox = QtWidgets.QSpinBox(self.widget_4)
+        self.spinBox.setGeometry(QtCore.QRect(805, 30, 80, 30))
+        self.spinBox.setProperty("value", 5)
+        self.spinBox.setObjectName("spinBox")
+        
         self.pushButton = QtWidgets.QPushButton(self.widget_4)
         self.pushButton.setDefault(False)
         self.pushButton.setAutoDefault(False)
-        self.pushButton.setGeometry(QtCore.QRect(740, 30, 121, 31))
+        self.pushButton.setGeometry(QtCore.QRect(890, 30, 121, 31))
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
@@ -167,20 +168,20 @@ class Ui_Form(object):
         self.pushButton.setObjectName("pushButton")
         self.textEdit_5 = QtWidgets.QTextEdit(self.widget_4)
         self.textEdit_5.setEnabled(False)
-        self.textEdit_5.setGeometry(QtCore.QRect(0, 70, 61, 31))
+        self.textEdit_5.setGeometry(QtCore.QRect(0, 70, 80, 31))
 
         self.textEdit_5.setObjectName("textEdit_5")
         self.lineEdit_4 = QtWidgets.QLineEdit(self.widget_4)
-        self.lineEdit_4.setGeometry(QtCore.QRect(60, 70, 133, 31))
+        self.lineEdit_4.setGeometry(QtCore.QRect(80, 70, 135, 31))
 
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.lineEdit_5 = QtWidgets.QLineEdit(self.widget_4)
-        self.lineEdit_5.setGeometry(QtCore.QRect(280, 70, 133, 31))
+        self.lineEdit_5.setGeometry(QtCore.QRect(300, 70, 300, 31))
 
         self.lineEdit_5.setObjectName("lineEdit_5")
         self.textEdit_6 = QtWidgets.QTextEdit(self.widget_4)
         self.textEdit_6.setEnabled(False)
-        self.textEdit_6.setGeometry(QtCore.QRect(220, 70, 61, 31))
+        self.textEdit_6.setGeometry(QtCore.QRect(220, 70, 80, 31))
 
         self.textEdit_6.setObjectName("textEdit_6")
         
@@ -203,6 +204,7 @@ class Ui_Form(object):
         self.gridLayout.addWidget(self.frame, 0, 0, 1, 1)
         
         self.ppm = self.spinBox.value()
+
         self.precursor = 0
         self.spinBox.valueChanged.connect(self.update_ppm)
         self.populate_comboBox()
