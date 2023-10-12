@@ -21,7 +21,9 @@ Click on Manual Inspection, which is active only if an mzML file is selected.
 
 ## Manual inspection
 A new screen it will appear. 
+
 ![f1](https://github.com/gmartano/MSIpixel/assets/91892227/c410c762-4c73-4231-9109-f69512a79e63)
+
 It is possible to fill in the m/z values to search or insert a chemical formula. In the second case, the m/z value will be automatically calculated based on the give selected adduct. If MS/MS scan are present for the given m/z value within ppm tolerance, a list of clickable items will appear and can be visualized by selecting the values. To export the selected MS/MS, click on Create Library file. A popup will open and ask for Save.
 Note 1: Depending on the size of the file, the new screen may appear after few seconds for small files (less than 1 gb) or several minutes for bigger files.
 Note 2: Manual inspection do not reconstruct the spatial distribution and don’t need XML file.
