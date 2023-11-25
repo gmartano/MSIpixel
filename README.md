@@ -1,7 +1,3 @@
-# Reference:
-Morosi, et. al, "MSIpixel: A Fully Automated Pipeline for Compound Annotation and Quantitation in Mass Spectrometry Imaging Experiments", Briefings in Bioinformatics,
-DOI: 10.1093/bib/bbad463
-
 # MSIpixel
 To run MSIpixel, there are 2 options:
 1)	On Windows machine, you can download the compile version of MSIpixel at https://github.com/gmartano/MSIpixel_utils/raw/main/MSIpixel_win.exe 
