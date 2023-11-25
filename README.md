@@ -14,6 +14,9 @@ MSIpixel was developed and tested with python 3.11.0. Library requirments: PyQt5
 In order to test MSIpixel functionalities, we recommend you to download the test file (https://github.com/gmartano/MSIpixel_utils/raw/main/test_files.zip) and test_library (https://github.com/gmartano/MSIpixel_utils/raw/main/test_library.zip).
 Unzip all the files and select the mzML, XML and the library folder to test the functionalities described below.
 
+## Raw Data
+MALDI acquisition should be set by using "Horizontal" and "Flyback" mode.
+
 ## Building library
 The library can be created by adding MS/MS spectra into a single folder. MS/MS spectra can be exported from raw data with manual inspection(see below).
 For export MS/MS spectra from raw files, load the mzML file that contain the spectra of interest on the main GUI.
