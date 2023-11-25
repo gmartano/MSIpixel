@@ -1,5 +1,6 @@
 # Cite as:
 Morosi, et al., "MSIpixel: A Fully Automated Pipeline for Compound Annotation and Quantitation in Mass Spectrometry Imaging Experiments", Briefings in Bioinformatics, (2023)
+
 DOI: https://doi.org/10.1093/bib/bbad463
 
 # MSIpixel
